@@ -22,37 +22,20 @@
 		var enIdx = [];			// 인코딩 된 text로 value를 얻기 위해 en과 같은 index에 value를 저장한다.
 		var resultId = [];		// 검색된 결과의 value 목록
 		var option = {
-				width: 151,												// description : container's width
-
-				height: 20,												// description : line height [textbox, li]
-
-				background: 'white',									// description : input box[textbox] background.
-																		//               equal css's background
-																		// ex1) 'black'
-																		// ex2) 'url(/localhost/images/aaa.png)'
-
-				border: '2px solid black',								// description : container's border
-																		//               equal css's border
-																		// ex1) '1px solid block'
-																		// ex2) 'solid 1px block'
-				
-				fontSize: 10,											// font-size
-				fontFamily: 'Gulim, Dotum, Tahoma, Sans-serif',			// font-family
-				fontColor: 'black',										// font-color
+				width: 151,
+				height: 20,
+				background: 'white',
+				border: '2px solid black',
+				fontSize: 10,// font-size
+				fontFamily: 'Gulim, Dotum, Tahoma, Sans-serif',
+				fontColor: 'black',
 				list: {
-					background: 'yellow',								// description : list's background
-																		// ex1) 'black'
-																		// ex2) 'url(/localhost/images/aaa.png)'
-					
-					highlightColor: 'orange',							// description : list's highlight color
-																		// ex1) 'black';
-																		// ex2) '#cccccc';
-																		// ex3) 'rgb(255,255,255)'
-					
-					limit: 10,											// search limit
-					showRows: 10										// list area limit
+					background: 'yellow',
+					highlightColor: 'orange',
+					limit: 10,
+					showRows: 10
 				},
-				button: true											// button show/hide
+				button: true
 		};
 		
 		// option setting
