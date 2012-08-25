@@ -1,3 +1,9 @@
+/*
+	Name: younjhAutoComplete
+	Author: Youn Jeong Hoon
+	Website: https://github.com/youn-jeong-hoon/jquery-autocomplete
+	Version: 0.1
+*/
 (function ($){
 	$.fn.younjhAutoComplete = function(options){
 		var $this = $(this);
