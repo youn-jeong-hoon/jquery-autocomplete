@@ -1,0 +1,19 @@
+@charset	"utf-8";
+
+*{margin:0; padding:0;}
+html,body{width:100%;}
+body{background-color:#f6f6f6; line-height:1.5em;  z-index:1;}
+body,input,button,select,input,textarea,td,th, p, span{font:11px Gulim, Dotum,Tahoma,Sans-serif;}
+img,fieldset,iframe{border:0 none;}
+img{vertical-align:middle;}
+ul li{list-style:none;}
+em,address{font-style:normal;}
+button,label{cursor:pointer;}
+button *{position:relative;}
+button img{left:-3px;}
+textarea{overflow:auto;}
+select{font-size:100%; color:#444; vertical-align:middle; height: 19px;}
+option{padding-right:6px;}
+strong{letter-spacing:-1px;}
+a{color:#666; text-decoration:none; outline: none; selector-dummy: expression(this.hideFocus=true); }
+a:hover{color:#1783b9; text-decoration:none;}
