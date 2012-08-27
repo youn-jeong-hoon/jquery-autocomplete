@@ -262,5 +262,6 @@
 				search(text, keyCode, true);
 			});
 		}
+                return this;
 	};
 })(jQuery);
